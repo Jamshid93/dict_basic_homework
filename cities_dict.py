@@ -6,4 +6,5 @@ def cities_dict(cities:list):
     Returns:
         dict: dictionary with keys ordered by city name
     """
-    return
+   
+    return 
