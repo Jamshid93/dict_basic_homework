@@ -7,4 +7,6 @@ def create_dictionary(key, value):
     Returns:
         dict: dictionary with keys and values
     """
-    return
+    answer=dict(zip(key,value))
+    return answer
+print(create_dictionary([1,2,3],["one", "two", "three"]))
